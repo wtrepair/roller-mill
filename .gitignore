@@ -45,3 +45,14 @@ coverage.xml
 
 # VS Code
 .vscode/
+
+# Node.js specific
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Module specific node_modules
+website-text-extractor/node_modules/
+
+# General node_modules (if any at root, or for future modules not in subdirs)
+node_modules/
